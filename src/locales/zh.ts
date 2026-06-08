@@ -6,7 +6,7 @@ export const zh: LocaleDict = {
   meta: {
     title: "SmartApe — 跟随 Solana 上最聪明的资金",
     description:
-      "面向 Solana 的 memecoin 聪明钱追踪器。为盈利钱包评分并分类（聪明 / 狙击 / 内部 / KOL），并以你的语言实时推送 Telegram 提醒。由 Fourtis 提供支持。",
+      "面向 Solana 的 memecoin 聪明钱追踪器。为盈利钱包评分并分类（聪明 / 狙击 / 内部 / KOL），并以你的语言实时推送 Telegram 提醒。",
   },
   nav: {
     links: {

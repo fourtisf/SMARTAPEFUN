@@ -4,7 +4,7 @@ Premium dark marketing landing page for **SmartApe** — a Solana-first memecoin
 **smart-money tracker**. It scores profitable on-chain wallets and alerts users in
 real time, with wallet segmentation (Smart 🟢 / Sniper ⚡ / Insider 🔴 / KOL 🎤),
 anti-rug fusion, and Telegram-native delivery in multiple languages.
-Independent brand, **powered by Fourtis**.
+An independent brand.
 
 > **Scope:** landing page only. Product data (feed, stats) is **illustrative** and clearly
 > labelled *private beta*. The waitlist endpoint **persists signups to a durable local JSONL

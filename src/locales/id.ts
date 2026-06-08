@@ -6,7 +6,7 @@ export const id: LocaleDict = {
   meta: {
     title: "SmartApe — Ikuti uang terpintar di Solana",
     description:
-      "Pelacak smart-money memecoin berbasis Solana. Skor dompet untung, segmentasi (Smart / Sniper / Insider / KOL), dan dapatkan alert Telegram real-time dalam bahasamu. Didukung oleh Fourtis.",
+      "Pelacak smart-money memecoin berbasis Solana. Skor dompet untung, segmentasi (Smart / Sniper / Insider / KOL), dan dapatkan alert Telegram real-time dalam bahasamu.",
   },
   nav: {
     links: {

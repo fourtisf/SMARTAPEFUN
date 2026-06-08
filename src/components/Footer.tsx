@@ -8,7 +8,6 @@ import {
   TELEGRAM_MAIN,
   TELEGRAM_ALERTS_URL,
   SITE_NAME,
-  FOURTIS_URL,
 } from "@/lib/site";
 
 export function Footer() {
@@ -37,7 +36,7 @@ export function Footer() {
       <div className="container-content py-14">
         <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div className="max-w-xs">
-            <BrandLockup poweredBy={f.poweredBy} />
+            <BrandLockup />
             <p className="mt-5 text-sm leading-relaxed text-text-muted">
               {f.tagline}
             </p>
@@ -55,16 +54,6 @@ export function Footer() {
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-[var(--border)] pt-6 text-sm text-text-muted sm:flex-row">
           <p>
             © {year} {SITE_NAME}. {f.rights}
-          </p>
-          <p>
-            <a
-              href={FOURTIS_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-colors hover:text-text"
-            >
-              {f.poweredBy}
-            </a>
           </p>
         </div>
       </div>

@@ -78,7 +78,6 @@ export default function OpengraphImage() {
           }}
         >
           <div>smartape.fun</div>
-          <div>powered by Fourtis</div>
         </div>
       </div>
     ),

@@ -8,7 +8,7 @@ export const SITE_URL =
 export const SITE_NAME = "SmartApe";
 export const SITE_TAGLINE = "Follow the smartest money on Solana.";
 export const SITE_DESCRIPTION =
-  "SmartApe is a Solana-first memecoin smart-money tracker. We score profitable on-chain wallets and alert you in real time — segmented Smart, Sniper, Insider and KOL flows, anti-rug fused, delivered Telegram-native in your language. Powered by Fourtis.";
+  "SmartApe is a Solana-first memecoin smart-money tracker. We score profitable on-chain wallets and alert you in real time — segmented Smart, Sniper, Insider and KOL flows, anti-rug fused, delivered Telegram-native in your language.";
 
 // Social / community
 export const X_HANDLE = "smartape_fun";
@@ -16,5 +16,3 @@ export const X_URL = "https://x.com/smartape_fun";
 export const TELEGRAM_MAIN = "https://t.me/smartape_fun";
 export const TELEGRAM_ALERTS_HANDLE = "smartape_signals";
 export const TELEGRAM_ALERTS_URL = "https://t.me/smartape_signals";
-
-export const FOURTIS_URL = "https://fourtis.io";

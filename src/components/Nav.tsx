@@ -54,7 +54,7 @@ export function Nav() {
         aria-label="Primary"
       >
         <a href="#top" className="-m-1 rounded-lg p-1" aria-label={n.brand}>
-          <BrandLockup poweredBy={n.poweredBy} />
+          <BrandLockup />
         </a>
 
         <div className="hidden items-center gap-8 lg:flex">

@@ -7,12 +7,11 @@ export const en = {
   meta: {
     title: "SmartApe — Follow the smartest money on Solana",
     description:
-      "Solana-first memecoin smart-money tracker. Score profitable wallets, segment them (Smart / Sniper / Insider / KOL), fuse anti-rug signals, and get real-time Telegram alerts in your language. Powered by Fourtis.",
+      "Solana-first memecoin smart-money tracker. Score profitable wallets, segment them (Smart / Sniper / Insider / KOL), fuse anti-rug signals, and get real-time Telegram alerts in your language.",
   },
 
   nav: {
     brand: "SmartApe",
-    poweredBy: "powered by Fourtis",
     links: {
       features: "Features",
       how: "How it works",
@@ -49,7 +48,7 @@ export const en = {
   },
 
   trust: {
-    label: "Incubated & powered by Fourtis",
+    label: "Multi-chain on the roadmap",
     chains: ["Solana", "BSC", "Base", "Ethereum", "Tron"],
   },
 
@@ -202,8 +201,7 @@ export const en = {
   },
 
   footer: {
-    tagline: "The smart-money tracker for Solana memecoins. Independent brand, powered by Fourtis.",
-    poweredBy: "powered by Fourtis",
+    tagline: "The smart-money tracker for Solana memecoins. An independent brand.",
     rights: "All rights reserved.",
     columns: {
       product: {

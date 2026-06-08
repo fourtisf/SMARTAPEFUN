@@ -71,7 +71,7 @@ export function SmartApeMonogram({ className }: { className?: string }) {
  */
 export const SmartApeMark = SmartApeMonogram;
 
-/** Wordmark lockup: monogram + "SmartApe" + optional "powered by Fourtis". */
+/** Wordmark lockup: monogram + "SmartApe" + optional tagline line. */
 export function BrandLockup({
   poweredBy,
   className,
