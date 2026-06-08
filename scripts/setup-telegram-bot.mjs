@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 /**
- * Register the ApeWise Telegram bot: set the command webhook + the slash-command
+ * Register the SmartApe Telegram bot: set the command webhook + the slash-command
  * menu. Run once after deploy (and whenever the URL/secret changes).
  *
  *   TELEGRAM_BOT_TOKEN=... \
- *   NEXT_PUBLIC_SITE_URL=https://apewise.ai \
+ *   NEXT_PUBLIC_SITE_URL=https://smartape.fun \
  *   TELEGRAM_WEBHOOK_SECRET=some-random-string \
  *   node scripts/setup-telegram-bot.mjs
  */
 const token = process.env.TELEGRAM_BOT_TOKEN;
 const site =
-  process.env.NEXT_PUBLIC_SITE_URL || process.env.SITE_URL || "https://apewise.ai";
+  process.env.NEXT_PUBLIC_SITE_URL || process.env.SITE_URL || "https://smartape.fun";
 const url = process.env.TELEGRAM_WEBHOOK_URL || `${site}/api/telegram/webhook`;
 const secret = process.env.TELEGRAM_WEBHOOK_SECRET || "";
 
@@ -36,7 +36,7 @@ console.log("setWebhook →", wh);
 
 const cmds = await post("setMyCommands", {
   commands: [
-    { command: "start", description: "About ApeWise" },
+    { command: "start", description: "About SmartApe" },
     { command: "terminal", description: "Open the live terminal" },
     { command: "top", description: "Top trending tokens" },
     { command: "status", description: "Bot status" },

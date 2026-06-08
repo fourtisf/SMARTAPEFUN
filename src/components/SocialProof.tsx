@@ -8,7 +8,7 @@ import { TELEGRAM_ALERTS_URL } from "@/lib/site";
 const STACK = ["Solana", "Helius", "DexScreener", "RugCheck", "Telegram"];
 
 /**
- * Trust band: real demand (live waitlist count) + the infrastructure ApeWise is
+ * Trust band: real demand (live waitlist count) + the infrastructure SmartApe is
  * built on. Honest — the count is the true signup total; hidden until > 0.
  */
 export function SocialProof() {

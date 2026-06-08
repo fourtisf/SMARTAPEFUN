@@ -11,13 +11,13 @@ import {
   X_HANDLE,
 } from "@/lib/site";
 
-const TITLE = "ApeWise — Follow the smartest money on Solana";
+const TITLE = "SmartApe — Follow the smartest money on Solana";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: TITLE,
-    template: "%s · ApeWise",
+    template: "%s · SmartApe",
   },
   description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "Telegram crypto alerts",
     "anti-rug",
     "Solana memecoins",
-    "ApeWise",
+    "SmartApe",
     "Fourtis",
   ],
   authors: [{ name: "Fourtis", url: "https://fourtis.io" }],
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#060608",
+  themeColor: "#0a0805",
   colorScheme: "dark",
   width: "device-width",
   initialScale: 1,

@@ -30,7 +30,7 @@ export function Background() {
           animationDelay: "-3.5s",
         }}
       />
-      {/* soft central emerald wash — keeps lower sections from going flat-black */}
+      {/* soft central gold wash — keeps lower sections from going flat-black */}
       <div
         className="bg-glow"
         style={{

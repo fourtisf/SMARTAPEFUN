@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 #
-# ApeWise — VPS redeploy.
+# SmartApe — VPS redeploy.
 # Pulls latest code, installs deps, rebuilds, and reloads the PM2 process
-# with zero-downtime. Run from the app directory on the server (e.g. /var/www/apewise).
+# with zero-downtime. Run from the app directory on the server (e.g. /var/www/smartape).
 #
 # Usage:  ./deploy.sh
 #
 set -euo pipefail
 
-APP_NAME="apewise"
+APP_NAME="smartape"
 BRANCH="${DEPLOY_BRANCH:-main}"
 
 echo "▶ Deploying ${APP_NAME} (branch: ${BRANCH})"

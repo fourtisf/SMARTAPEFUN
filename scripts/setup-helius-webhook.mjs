@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 /**
  * Register (create) a Helius "enhanced" webhook for the tracked smart wallets,
- * pointing at the ApeWise ingest endpoint.
+ * pointing at the SmartApe ingest endpoint.
  *
  * Usage (from the app dir):
  *   HELIUS_API_KEY=xxx \
- *   WEBHOOK_URL=https://apewise.ai/api/ingest/helius \
+ *   WEBHOOK_URL=https://smartape.fun/api/ingest/helius \
  *   INGEST_SECRET=some-long-random-string \
  *   node scripts/setup-helius-webhook.mjs
  *

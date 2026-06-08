@@ -1,8 +1,8 @@
 {
-  "name": "apewise",
+  "name": "smartape",
   "version": "0.1.0",
   "private": true,
-  "description": "ApeWise.ai — Solana-first memecoin smart-money tracker. Premium dark marketing landing page. Powered by Fourtis.",
+  "description": "SmartApe (smartape.fun) — Solana-first memecoin smart-money tracker. Premium dark marketing landing page. Powered by Fourtis.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

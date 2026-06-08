@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "ApeWise — Solana smart-money terminal";
+export const alt = "SmartApe — Solana smart-money terminal";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -17,8 +17,8 @@ export default function OpengraphImage() {
           justifyContent: "space-between",
           padding: 76,
           background:
-            "linear-gradient(135deg, #060608 0%, #0d0d10 55%, #060608 100%)",
-          color: "#f0f2f6",
+            "linear-gradient(135deg, #0a0805 0%, #141009 55%, #0a0805 100%)",
+          color: "#f5f1e8",
           fontFamily: "sans-serif",
         }}
       >
@@ -29,30 +29,25 @@ export default function OpengraphImage() {
               height: 60,
               borderRadius: 16,
               background: "#000000",
-              boxShadow: "0 0 22px rgba(47,233,168,0.5)",
+              boxShadow: "0 0 22px rgba(255,181,52,0.5)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
             }}
           >
-            <svg width="36" height="36" viewBox="0 0 32 32" fill="none">
-              <path
-                d="M6 23.4 L11 9.2 L15 16.8 L19 11.4 L22.2 15.4 L26 8"
-                stroke="#2fe9a8"
-                strokeWidth="2.6"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <path
-                d="M9.4 13.8 L13.4 13.8"
-                stroke="#2fe9a8"
-                strokeWidth="2.6"
-                strokeLinecap="round"
-              />
-              <circle cx="26" cy="8" r="2.5" fill="#2fe9a8" />
+            {/* SmartApe gold ape head (solid fills for the OG renderer) */}
+            <svg width="40" height="40" viewBox="0 0 32 32" fill="none">
+              <circle cx="8.6" cy="11" r="3.1" fill="#ffb534" />
+              <circle cx="23.4" cy="11" r="3.1" fill="#ffb534" />
+              <circle cx="16" cy="15.7" r="8.3" fill="#ffb534" />
+              <circle cx="16" cy="18.7" r="4" fill="#000000" />
+              <circle cx="12.5" cy="13.7" r="1.55" fill="#000000" />
+              <circle cx="19.5" cy="13.7" r="1.55" fill="#000000" />
+              <circle cx="14.4" cy="18.5" r="0.85" fill="#ffb534" />
+              <circle cx="17.6" cy="18.5" r="0.85" fill="#ffb534" />
             </svg>
           </div>
-          <div style={{ fontSize: 36, fontWeight: 700 }}>ApeWise</div>
+          <div style={{ fontSize: 36, fontWeight: 700 }}>SmartApe</div>
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
@@ -60,7 +55,7 @@ export default function OpengraphImage() {
             style={{
               fontSize: 26,
               letterSpacing: 4,
-              color: "#cfd0d4",
+              color: "#d8c7a8",
               fontWeight: 600,
             }}
           >
@@ -69,7 +64,7 @@ export default function OpengraphImage() {
           <div style={{ fontSize: 72, fontWeight: 800, lineHeight: 1.08 }}>
             Follow the smartest money on Solana.
           </div>
-          <div style={{ fontSize: 30, color: "#8b93a3" }}>
+          <div style={{ fontSize: 30, color: "#9b9183" }}>
             Scored wallets · anti-rug fused · real-time Telegram alerts.
           </div>
         </div>
@@ -79,10 +74,10 @@ export default function OpengraphImage() {
             display: "flex",
             justifyContent: "space-between",
             fontSize: 24,
-            color: "#8b93a3",
+            color: "#9b9183",
           }}
         >
-          <div>apewise.ai</div>
+          <div>smartape.fun</div>
           <div>powered by Fourtis</div>
         </div>
       </div>

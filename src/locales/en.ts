@@ -5,13 +5,13 @@
  */
 export const en = {
   meta: {
-    title: "ApeWise — Follow the smartest money on Solana",
+    title: "SmartApe — Follow the smartest money on Solana",
     description:
       "Solana-first memecoin smart-money tracker. Score profitable wallets, segment them (Smart / Sniper / Insider / KOL), fuse anti-rug signals, and get real-time Telegram alerts in your language. Powered by Fourtis.",
   },
 
   nav: {
-    brand: "ApeWise",
+    brand: "SmartApe",
     poweredBy: "powered by Fourtis",
     links: {
       features: "Features",
@@ -29,7 +29,7 @@ export const en = {
     badge: "Solana-first smart-money tracker",
     statusBeta: "Private beta",
     h1: "Follow the smartest money on Solana.",
-    sub: "ApeWise scores profitable on-chain wallets and alerts you the second they ape in — segmented, anti-rug fused, and delivered Telegram-native in your language.",
+    sub: "SmartApe scores profitable on-chain wallets and alerts you the second they ape in — segmented, anti-rug fused, and delivered Telegram-native in your language.",
     ctaPrimary: "Get Early Access",
     ctaSecondary: "See how it works",
     ctaTerminal: "Open the terminal",
@@ -117,7 +117,7 @@ export const en = {
     steps: [
       {
         title: "We score the wallets",
-        body: "ApeWise ingests Solana activity and ranks wallets by realized profit, win-rate and behavior — then segments each one.",
+        body: "SmartApe ingests Solana activity and ranks wallets by realized profit, win-rate and behavior — then segments each one.",
       },
       {
         title: "We fuse the context",
@@ -131,21 +131,21 @@ export const en = {
   },
 
   why: {
-    kicker: "Why ApeWise",
+    kicker: "Why SmartApe",
     title: "Not another generic tracker.",
     sub: "The difference is segmentation, delivery and fusion — the things that actually change your entry.",
     columns: {
       feature: "Capability",
-      apewise: "ApeWise",
+      smartape: "SmartApe",
       generic: "Generic trackers",
     },
     rows: [
-      { label: "Wallet segmentation (Smart / Sniper / Insider / KOL)", apewise: true, generic: false },
-      { label: "Telegram-native, sub-second delivery", apewise: true, generic: false },
-      { label: "Your language (EN / ID / RU / AR / ZH)", apewise: true, generic: false },
-      { label: "Anti-rug checks fused into every alert", apewise: true, generic: false },
-      { label: "Real-time smart-money inflow context", apewise: true, generic: "Partial" },
-      { label: "Multi-chain roadmap (SOL · BSC · Base · ETH · Tron)", apewise: true, generic: "Partial" },
+      { label: "Wallet segmentation (Smart / Sniper / Insider / KOL)", smartape: true, generic: false },
+      { label: "Telegram-native, sub-second delivery", smartape: true, generic: false },
+      { label: "Your language (EN / ID / RU / AR / ZH)", smartape: true, generic: false },
+      { label: "Anti-rug checks fused into every alert", smartape: true, generic: false },
+      { label: "Real-time smart-money inflow context", smartape: true, generic: "Partial" },
+      { label: "Multi-chain roadmap (SOL · BSC · Base · ETH · Tron)", smartape: true, generic: "Partial" },
     ],
   },
 
@@ -188,7 +188,7 @@ export const en = {
 
   waitlist: {
     kicker: "Early access",
-    title: "Get on the ApeWise waitlist.",
+    title: "Get on the SmartApe waitlist.",
     sub: "Be first when we open the gates. Early members get founding-member pricing and priority alerts.",
     placeholder: "you@email.com",
     cta: "Request access",
@@ -197,7 +197,7 @@ export const en = {
     errorInvalid: "Please enter a valid email address.",
     errorGeneric: "Something went wrong. Please try again.",
     telegramPrompt: "Prefer Telegram? Join",
-    telegramCta: "@apewisesignals",
+    telegramCta: "@smartape_signals",
     disclaimer: "No spam. Unsubscribe anytime.",
   },
 

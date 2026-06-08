@@ -4,7 +4,7 @@ import { TrustStrip } from "@/components/TrustStrip";
 import { Problem } from "@/components/Problem";
 import { Features } from "@/components/Features";
 import { HowItWorks } from "@/components/HowItWorks";
-import { WhyApeWise } from "@/components/WhyApeWise";
+import { WhySmartApe } from "@/components/WhySmartApe";
 import { SocialProof } from "@/components/SocialProof";
 import { Pricing } from "@/components/Pricing";
 import { Waitlist } from "@/components/Waitlist";
@@ -20,7 +20,7 @@ export default function Home() {
         <Problem />
         <Features />
         <HowItWorks />
-        <WhyApeWise />
+        <WhySmartApe />
         <SocialProof />
         <Pricing />
         <Waitlist />

@@ -5,7 +5,7 @@ import { getMarketSnapshot } from "@/lib/server/marketLive";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://apewise.ai";
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://smartape.fun";
 
 type TgUpdate = {
   message?: { chat?: { id?: number | string }; text?: string };
@@ -38,9 +38,9 @@ export async function POST(req: Request) {
   if (cmd === "/start") {
     await tgSend(
       chatId,
-      `👋 <b>ApeWise</b> — the smart-money terminal for Solana memecoins.\n\n` +
+      `👋 <b>SmartApe</b> — the smart-money terminal for Solana memecoins.\n\n` +
         `📊 Live terminal: ${SITE}/terminal\n` +
-        `🔔 Signals: @apewisesignals\n\n` +
+        `🔔 Signals: @smartape_signals\n\n` +
         `Type /help for commands.`,
     );
   } else if (cmd === "/help") {
@@ -50,12 +50,12 @@ export async function POST(req: Request) {
         `/terminal — open the live terminal\n` +
         `/top — top trending tokens right now\n` +
         `/status — bot status\n` +
-        `/start — about ApeWise`,
+        `/start — about SmartApe`,
     );
   } else if (cmd === "/status") {
     await tgSend(
       chatId,
-      `✅ <b>ApeWise bot online.</b>\nTerminal: ${SITE}/terminal\nAlerts post to @apewisesignals.`,
+      `✅ <b>SmartApe bot online.</b>\nTerminal: ${SITE}/terminal\nAlerts post to @smartape_signals.`,
     );
   } else if (cmd === "/terminal") {
     await tgSend(chatId, `📊 Live terminal: ${SITE}/terminal`);
@@ -89,5 +89,5 @@ export async function POST(req: Request) {
 }
 
 export function GET() {
-  return NextResponse.json({ ok: true, message: "ApeWise Telegram webhook." });
+  return NextResponse.json({ ok: true, message: "SmartApe Telegram webhook." });
 }

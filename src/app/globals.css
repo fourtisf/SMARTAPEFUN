@@ -9,21 +9,21 @@
    DESIGN TOKENS  (signed-off prototype values)
    ============================================================ */
 :root {
-  --bg: #060608; /* premium near-black, fully neutral (no blue undertone) */
-  --surface: #101013;
-  --surface-2: #18181c;
+  --bg: #0a0805; /* warm near-black — gold-tinted, no blue undertone */
+  --surface: #15110a;
+  --surface-2: #201910;
   --border: rgba(255, 255, 255, 0.08);
   --border-strong: rgba(255, 255, 255, 0.14);
-  --text: #f2f2f4;
-  --text-muted: #8a8a90;
-  --accent: #22e5a4; /* premium emerald — brand-led UI accent */
-  --accent-2: #0e9e72; /* deep emerald — secondary glows / depth */
-  /* Brand emerald. Drives the logo (<ApeWiseMonogram />: a --brand-hi → --brand-lo
+  --text: #f5f1e8;
+  --text-muted: #9b9183;
+  --accent: #ffb534; /* premium gold — brand-led UI accent */
+  --accent-2: #c9781a; /* deep amber — secondary glows / depth */
+  /* Brand gold. Drives the logo (<SmartApeMonogram />: a --brand-hi → --brand-lo
      gradient on a pure-black tile) AND the UI: --brand === --accent, while
      --brand-hi/-lo are the gradient stops reused by the primary button. */
-  --brand: #22e5a4;
-  --brand-hi: #5cffc4;
-  --brand-lo: #11bf86;
+  --brand: #ffb534;
+  --brand-hi: #ffd36b;
+  --brand-lo: #e0901a;
   --red: #ff7a7a;
   --amber: #ffce54;
   --radius: 20px;
@@ -146,9 +146,9 @@
     color: transparent;
   }
 
-  /* Premium emerald-tinted sheen for large display headings */
+  /* Premium gold-tinted sheen for large display headings */
   .headline-sheen {
-    background: linear-gradient(180deg, #ffffff 14%, #84ead0 100%);
+    background: linear-gradient(180deg, #fffaf0 12%, #ffce85 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

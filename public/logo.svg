@@ -1,24 +1,29 @@
-<!-- ApeWise horizontal lockup (monogram + wordmark). Press / external use.
+<!-- SmartApe horizontal lockup (monogram + wordmark). Press / external use.
      Wordmark uses a geometric system-font stack so the file is self-contained;
      the in-app lockup renders the real Clash Display via <BrandLockup />. -->
-<svg xmlns="http://www.w3.org/2000/svg" width="232" height="60" viewBox="0 0 232 60" fill="none" role="img" aria-label="ApeWise">
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="60" viewBox="0 0 240 60" fill="none" role="img" aria-label="SmartApe">
   <defs>
-    <linearGradient id="b" x1="0" y1="7" x2="0" y2="24" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5cffc4"/>
-      <stop offset="1" stop-color="#11bf86"/>
+    <linearGradient id="b" x1="0" y1="6" x2="0" y2="25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd36b"/>
+      <stop offset="1" stop-color="#e0901a"/>
     </linearGradient>
     <filter id="g" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="0.85" result="bl"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" result="bl"/>
       <feMerge><feMergeNode in="bl"/><feMergeNode in="bl"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
   <g transform="translate(8 8) scale(1.375)">
     <rect x="0" y="0" width="32" height="32" rx="9" fill="#000000"/>
-    <g filter="url(#g)">
-      <path d="M6 23.4 11 9.2 15 16.8 19 11.4 22.2 15.4 26 8" fill="none" stroke="url(#b)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M9.4 13.8 13.4 13.8" stroke="url(#b)" stroke-width="2.4" stroke-linecap="round"/>
-      <circle cx="26" cy="8" r="2.6" fill="url(#b)"/>
+    <g filter="url(#g)" fill="url(#b)">
+      <circle cx="8.6" cy="11" r="3.1"/>
+      <circle cx="23.4" cy="11" r="3.1"/>
+      <circle cx="16" cy="15.7" r="8.3"/>
+      <circle cx="16" cy="18.7" r="4" fill="#000000"/>
+      <circle cx="12.5" cy="13.7" r="1.55" fill="#000000"/>
+      <circle cx="19.5" cy="13.7" r="1.55" fill="#000000"/>
+      <circle cx="14.4" cy="18.5" r="0.85"/>
+      <circle cx="17.6" cy="18.5" r="0.85"/>
     </g>
   </g>
-  <text x="68" y="38" font-family="Inter,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="27" font-weight="600" letter-spacing="-0.5" fill="#f2f2f4">ApeWise</text>
+  <text x="68" y="38" font-family="Inter,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="27" font-weight="600" letter-spacing="-0.5" fill="#f5f1e8">SmartApe</text>
 </svg>

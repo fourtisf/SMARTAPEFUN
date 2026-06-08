@@ -33,7 +33,7 @@ function Cell({
   );
 }
 
-export function WhyApeWise() {
+export function WhySmartApe() {
   const { strings } = useStrings();
   const w = strings.why;
 
@@ -50,7 +50,7 @@ export function WhyApeWise() {
                     {w.columns.feature}
                   </th>
                   <th className="px-4 py-4 text-center text-sm font-semibold text-accent sm:px-6">
-                    {w.columns.apewise}
+                    {w.columns.smartape}
                   </th>
                   <th className="px-4 py-4 text-center text-sm font-medium text-text-muted sm:px-6">
                     {w.columns.generic}
@@ -70,7 +70,7 @@ export function WhyApeWise() {
                       {row.label}
                     </td>
                     <td className="px-4 py-4 text-center sm:px-6">
-                      <Cell value={row.apewise} positive />
+                      <Cell value={row.smartape} positive />
                     </td>
                     <td className="px-4 py-4 text-center sm:px-6">
                       <Cell value={row.generic} />

@@ -1,6 +1,6 @@
-# ApeWise.ai
+# SmartApe — smartape.fun
 
-Premium dark marketing landing page for **ApeWise** — a Solana-first memecoin
+Premium dark marketing landing page for **SmartApe** — a Solana-first memecoin
 **smart-money tracker**. It scores profitable on-chain wallets and alerts users in
 real time, with wallet segmentation (Smart 🟢 / Sniper ⚡ / Insider 🔴 / KOL 🎤),
 anti-rug fusion, and Telegram-native delivery in multiple languages.
@@ -45,10 +45,10 @@ Copy `.env.example` to `.env.local` (or set in your host):
 
 | Variable | Required | Purpose |
 |---|---|---|
-| `NEXT_PUBLIC_SITE_URL` | recommended | Absolute base URL for canonical / OG / sitemap. Defaults to `https://apewise.ai`. |
+| `NEXT_PUBLIC_SITE_URL` | recommended | Absolute base URL for canonical / OG / sitemap. Defaults to `https://smartape.fun`. |
 | `WAITLIST_WEBHOOK_URL` | optional | If set, `/api/waitlist` also forwards each validated signup here (e.g. Sheets/Zapier/CRM). |
 | `WAITLIST_FILE` | optional | Path to the durable JSONL file every signup is appended to. Defaults to `./data/waitlist.jsonl` (gitignored, survives restarts + deploys). |
-| `NEXT_PUBLIC_PLAUSIBLE_DOMAIN` | optional | Set to your site domain (e.g. `apewise.ai`) to enable privacy-friendly Plausible analytics + the `Waitlist Signup` goal. |
+| `NEXT_PUBLIC_PLAUSIBLE_DOMAIN` | optional | Set to your site domain (e.g. `smartape.fun`) to enable privacy-friendly Plausible analytics + the `Waitlist Signup` goal. |
 
 The app runs fine with **no env vars** for local dev.
 
@@ -89,7 +89,7 @@ zig-zag and resolves on the smart-money signal dot, in **premium emerald** (a
 `--brand-hi → --brand-lo` gradient) on a **pure-black, borderless tile** with a
 soft emerald glow. The same emerald is the UI accent (`--accent`) too — CTAs,
 links, badges, pulses, glows and focus states — premium green on black. Single
-source of truth: `<ApeWiseMonogram />` / `<BrandLockup />` in
+source of truth: `<SmartApeMonogram />` / `<BrandLockup />` in
 `src/components/Brand.tsx` (token-driven). Standalone files for press / external use:
 
 - `public/monogram.svg` — the mark on its own.
@@ -136,15 +136,15 @@ curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt-get install -y nodejs nginx
 sudo npm i -g pm2
 
-# from /var/www/apewise (rsync or git clone the repo here)
+# from /var/www/smartape (rsync or git clone the repo here)
 npm ci
 npm run build
-pm2 start npm --name apewise -- start
+pm2 start npm --name smartape -- start
 pm2 save && pm2 startup        # run the printed command for boot persistence
 ```
 
-Nginx reverse proxy (`/etc/nginx/sites-available/apewise`) → `proxy_pass http://127.0.0.1:3000;`,
-then `certbot --nginx -d apewise.ai -d www.apewise.ai` for SSL. Full step-by-step
+Nginx reverse proxy (`/etc/nginx/sites-available/smartape`) → `proxy_pass http://127.0.0.1:3000;`,
+then `certbot --nginx -d smartape.fun -d www.smartape.fun` for SSL. Full step-by-step
 lives in the deploy handoff.
 
 ### Redeploy
@@ -152,7 +152,7 @@ lives in the deploy handoff.
 A one-shot redeploy script is included as [`deploy.sh`](./deploy.sh):
 
 ```bash
-./deploy.sh        # git pull → npm ci → npm run build → pm2 reload apewise
+./deploy.sh        # git pull → npm ci → npm run build → pm2 reload smartape
 ```
 
 ---
@@ -163,7 +163,7 @@ The `/terminal` runs in **DEMO** mode until the engine is wired. Then tracked-wa
 swaps flow in, the terminal goes **LIVE**, and Telegram alerts fire.
 
 **Flow:** curated wallets → Helius enhanced webhook → `POST /api/ingest/helius`
-→ parse swap → store + alert `@apewisesignals` → `/terminal` polls `GET /api/terminal/feed`.
+→ parse swap → store + alert `@smartape_signals` → `/terminal` polls `GET /api/terminal/feed`.
 
 **Setup (on the server):**
 
@@ -173,7 +173,7 @@ swaps flow in, the terminal goes **LIVE**, and Telegram alerts fire.
    ```
 2. Set env (`.env`): `HELIUS_API_KEY`, `INGEST_SECRET`, `WEBHOOK_URL`,
    `TELEGRAM_BOT_TOKEN`, `TELEGRAM_SIGNALS_CHAT_ID` (bot must be admin of the channel),
-   optional `BUY_LINK_TEMPLATE`. Restart: `pm2 restart apewise`.
+   optional `BUY_LINK_TEMPLATE`. Restart: `pm2 restart smartape`.
 3. Register the webhook (one-off):
    ```bash
    node scripts/setup-helius-webhook.mjs
