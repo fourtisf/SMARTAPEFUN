@@ -163,7 +163,7 @@ The `/terminal` runs in **DEMO** mode until the engine is wired. Then tracked-wa
 swaps flow in, the terminal goes **LIVE**, and Telegram alerts fire.
 
 **Flow:** curated wallets → Helius enhanced webhook → `POST /api/ingest/helius`
-→ parse swap → store + alert `@smartape_signals` → `/terminal` polls `GET /api/terminal/feed`.
+→ parse swap → store + alert `@smartapefun` → `/terminal` polls `GET /api/terminal/feed`.
 
 **Setup (on the server):**
 

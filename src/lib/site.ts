@@ -13,6 +13,6 @@ export const SITE_DESCRIPTION =
 // Social / community
 export const X_HANDLE = "smartape_fun";
 export const X_URL = "https://x.com/smartape_fun";
-export const TELEGRAM_MAIN = "https://t.me/smartape_fun";
-export const TELEGRAM_ALERTS_HANDLE = "smartape_signals";
-export const TELEGRAM_ALERTS_URL = "https://t.me/smartape_signals";
+export const TELEGRAM_MAIN = "https://t.me/smartapefun";
+export const TELEGRAM_ALERTS_HANDLE = "smartapefun";
+export const TELEGRAM_ALERTS_URL = "https://t.me/smartapefun";

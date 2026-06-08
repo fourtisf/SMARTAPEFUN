@@ -196,7 +196,7 @@ export const en = {
     errorInvalid: "Please enter a valid email address.",
     errorGeneric: "Something went wrong. Please try again.",
     telegramPrompt: "Prefer Telegram? Join",
-    telegramCta: "@smartape_signals",
+    telegramCta: "@smartapefun",
     disclaimer: "No spam. Unsubscribe anytime.",
   },
 

@@ -55,11 +55,11 @@ export default function PrivacyPage() {
       <p>
         {"Questions or requests? Reach the team via "}
         <a
-          href="https://t.me/smartape_fun"
+          href="https://t.me/smartapefun"
           target="_blank"
           rel="noopener noreferrer"
         >
-          @smartape_fun
+          @smartapefun
         </a>
         {" on Telegram."}
       </p>

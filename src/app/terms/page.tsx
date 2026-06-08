@@ -62,11 +62,11 @@ export default function TermsPage() {
       <p>
         {"Questions? Reach us via "}
         <a
-          href="https://t.me/smartape_fun"
+          href="https://t.me/smartapefun"
           target="_blank"
           rel="noopener noreferrer"
         >
-          @smartape_fun
+          @smartapefun
         </a>
         {" on Telegram."}
       </p>

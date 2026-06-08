@@ -40,7 +40,7 @@ export async function POST(req: Request) {
       chatId,
       `👋 <b>SmartApe</b> — the smart-money terminal for Solana memecoins.\n\n` +
         `📊 Live terminal: ${SITE}/terminal\n` +
-        `🔔 Signals: @smartape_signals\n\n` +
+        `🔔 Signals: @smartapefun\n\n` +
         `Type /help for commands.`,
     );
   } else if (cmd === "/help") {
@@ -55,7 +55,7 @@ export async function POST(req: Request) {
   } else if (cmd === "/status") {
     await tgSend(
       chatId,
-      `✅ <b>SmartApe bot online.</b>\nTerminal: ${SITE}/terminal\nAlerts post to @smartape_signals.`,
+      `✅ <b>SmartApe bot online.</b>\nTerminal: ${SITE}/terminal\nAlerts post to @smartapefun.`,
     );
   } else if (cmd === "/terminal") {
     await tgSend(chatId, `📊 Live terminal: ${SITE}/terminal`);

@@ -34,7 +34,7 @@ export async function tgSend(
   }
 }
 
-/** Post to the signals channel (TELEGRAM_SIGNALS_CHAT_ID, e.g. @smartape_signals). */
+/** Post to the signals channel (TELEGRAM_SIGNALS_CHAT_ID, e.g. @smartapefun). */
 export async function postToChannel(
   text: string,
   replyMarkup?: unknown,
