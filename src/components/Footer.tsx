@@ -5,7 +5,6 @@ import { useStrings } from "@/lib/strings";
 import { BrandLockup } from "@/components/Brand";
 import {
   X_URL,
-  TELEGRAM_MAIN,
   TELEGRAM_ALERTS_URL,
   SITE_NAME,
 } from "@/lib/site";
@@ -23,7 +22,6 @@ export function Footer() {
   ];
   const community: { href: string; label: string }[] = [
     { href: X_URL, label: f.columns.community.links.x },
-    { href: TELEGRAM_MAIN, label: f.columns.community.links.telegram },
     { href: TELEGRAM_ALERTS_URL, label: f.columns.community.links.alerts },
   ];
   const legal: { href: string; label: string }[] = [

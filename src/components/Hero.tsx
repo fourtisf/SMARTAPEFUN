@@ -40,7 +40,13 @@ export function Hero() {
                   </span>
                   {h.badge}
                 </Badge>
-                <Badge tone="muted">{h.statusBeta}</Badge>
+                <Badge tone="accent">
+                  <span className="relative inline-flex h-1.5 w-1.5">
+                    <span className="pulse-dot inline-flex h-1.5 w-1.5 rounded-full bg-accent" />
+                  </span>
+                  {h.statusLive}
+                </Badge>
+                <Badge tone="muted">{h.ca}</Badge>
               </div>
             </Reveal>
 
