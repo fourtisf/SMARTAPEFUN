@@ -16,3 +16,9 @@ export const X_URL = "https://x.com/smartape_fun";
 export const TELEGRAM_MAIN = "https://t.me/smartapefun";
 export const TELEGRAM_ALERTS_HANDLE = "smartapefun";
 export const TELEGRAM_ALERTS_URL = "https://t.me/smartapefun";
+
+// Token contract address (SPL mint). Drives the hero CA pill.
+// Empty value renders "Coming soon"; override per-env with NEXT_PUBLIC_CONTRACT_ADDRESS.
+export const CONTRACT_ADDRESS =
+  process.env.NEXT_PUBLIC_CONTRACT_ADDRESS?.trim() ||
+  "8AG3XxUQ3H7WFMiyhhq8jqGGPnJD3tyAvG7FdUitpump";

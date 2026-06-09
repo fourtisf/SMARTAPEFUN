@@ -27,7 +27,12 @@ export const en = {
   hero: {
     badge: "Solana-first smart-money tracker",
     statusLive: "Live",
-    ca: "CA: Coming soon",
+    ca: {
+      label: "CA",
+      comingSoon: "Coming soon",
+      copy: "Copy address",
+      copied: "Copied!",
+    },
     h1: "Follow the smartest money on Solana.",
     sub: "SmartApe scores profitable on-chain wallets and alerts you the second they ape in — segmented, anti-rug fused, and delivered Telegram-native in your language.",
     ctaPrimary: "Get Early Access",

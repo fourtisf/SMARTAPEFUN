@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/Badge";
 import { Reveal } from "@/components/ui/Reveal";
 import { SmartMoneyFeed } from "./SmartMoneyFeed";
 import { StatCounter } from "./StatCounter";
+import { ContractAddress } from "./ContractAddress";
 
 export function Hero() {
   const { strings } = useStrings();
@@ -46,7 +47,7 @@ export function Hero() {
                   </span>
                   {h.statusLive}
                 </Badge>
-                <Badge tone="muted">{h.ca}</Badge>
+                <ContractAddress />
               </div>
             </Reveal>
 
