@@ -33,6 +33,12 @@ export const en = {
     ctaPrimary: "Get Early Access",
     ctaSecondary: "See how it works",
     ctaTerminal: "Open the terminal",
+    ca: {
+      label: "CA",
+      comingSoon: "Coming soon",
+      copy: "Copy address",
+      copied: "Copied!",
+    },
     highlights: ["Sub-second Telegram alerts", "Anti-rug fused", "Wallet segments"],
     stats: {
       segments: { value: 4, decimals: 0, suffix: "", label: "Wallet segments" },

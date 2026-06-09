@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/Badge";
 import { Reveal } from "@/components/ui/Reveal";
 import { SmartMoneyFeed } from "./SmartMoneyFeed";
 import { StatCounter } from "./StatCounter";
+import { ContractAddress } from "./ContractAddress";
 
 export function Hero() {
   const { strings } = useStrings();
@@ -65,6 +66,12 @@ export function Hero() {
                   {h.ctaTerminal}
                   <ArrowRight className="h-4 w-4" aria-hidden />
                 </Button>
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.2}>
+              <div className="mt-6">
+                <ContractAddress />
               </div>
             </Reveal>
 

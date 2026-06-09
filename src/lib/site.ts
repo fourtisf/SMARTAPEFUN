@@ -18,3 +18,9 @@ export const TELEGRAM_ALERTS_HANDLE = "apewisesignals";
 export const TELEGRAM_ALERTS_URL = "https://t.me/apewisesignals";
 
 export const FOURTIS_URL = "https://fourtis.io";
+
+// Token — the SPL mint (contract address). Leave unset until the token is live;
+// an empty value renders the CA as "Coming soon". Set NEXT_PUBLIC_CONTRACT_ADDRESS
+// at launch and the hero pill becomes a copyable address with no code change.
+export const CONTRACT_ADDRESS =
+  process.env.NEXT_PUBLIC_CONTRACT_ADDRESS?.trim() || "";

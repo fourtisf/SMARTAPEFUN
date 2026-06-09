@@ -23,5 +23,11 @@ export const id: LocaleDict = {
     sub: "ApeWise menilai dompet on-chain yang untung dan memberi tahu Anda saat mereka masuk — tersegmentasi, anti-rug, dan dikirim langsung ke Telegram dalam bahasa Anda.",
     ctaPrimary: "Dapatkan Akses Awal",
     ctaSecondary: "Lihat cara kerjanya",
+    ca: {
+      label: "CA",
+      comingSoon: "Segera hadir",
+      copy: "Salin alamat",
+      copied: "Tersalin!",
+    },
   },
 };
